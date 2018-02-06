@@ -15,6 +15,7 @@
 		DDC7F54920299CC800830F40 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC7F54820299CC800830F40 /* main.m */; };
 		DDC7F55320299CC800830F40 /* MNFileDownloaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC7F55220299CC800830F40 /* MNFileDownloaderTests.m */; };
 		DDC7F55E20299CC800830F40 /* MNFileDownloaderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC7F55D20299CC800830F40 /* MNFileDownloaderUITests.m */; };
+		DDC7F56D20299DDA00830F40 /* MNFileDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC7F56C20299DDA00830F40 /* MNFileDownloader.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		DDC7F55920299CC800830F40 /* MNFileDownloaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MNFileDownloaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDC7F55D20299CC800830F40 /* MNFileDownloaderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MNFileDownloaderUITests.m; sourceTree = "<group>"; };
 		DDC7F55F20299CC800830F40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDC7F56B20299DDA00830F40 /* MNFileDownloader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MNFileDownloader.h; sourceTree = "<group>"; };
+		DDC7F56C20299DDA00830F40 /* MNFileDownloader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MNFileDownloader.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				DDC7F54420299CC800830F40 /* LaunchScreen.storyboard */,
 				DDC7F54720299CC800830F40 /* Info.plist */,
 				DDC7F54820299CC800830F40 /* main.m */,
+				DDC7F56B20299DDA00830F40 /* MNFileDownloader.h */,
+				DDC7F56C20299DDA00830F40 /* MNFileDownloader.m */,
 			);
 			path = MNFileDownloader;
 			sourceTree = "<group>";
@@ -268,6 +273,7 @@
 				DDC7F53E20299CC800830F40 /* ViewController.m in Sources */,
 				DDC7F54920299CC800830F40 /* main.m in Sources */,
 				DDC7F53B20299CC800830F40 /* AppDelegate.m in Sources */,
+				DDC7F56D20299DDA00830F40 /* MNFileDownloader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
