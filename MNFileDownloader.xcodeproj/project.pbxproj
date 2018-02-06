@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDC7F53B20299CC800830F40 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC7F53A20299CC800830F40 /* AppDelegate.m */; };
+		DDC7F53E20299CC800830F40 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC7F53D20299CC800830F40 /* ViewController.m */; };
+		DDC7F54120299CC800830F40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDC7F53F20299CC800830F40 /* Main.storyboard */; };
+		DDC7F54320299CC800830F40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDC7F54220299CC800830F40 /* Assets.xcassets */; };
+		DDC7F54620299CC800830F40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDC7F54420299CC800830F40 /* LaunchScreen.storyboard */; };
+		DDC7F54920299CC800830F40 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC7F54820299CC800830F40 /* main.m */; };
+		DDC7F55320299CC800830F40 /* MNFileDownloaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC7F55220299CC800830F40 /* MNFileDownloaderTests.m */; };
+		DDC7F55E20299CC800830F40 /* MNFileDownloaderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC7F55D20299CC800830F40 /* MNFileDownloaderUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDC7F54F20299CC800830F40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDC7F52E20299CC800830F40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDC7F53520299CC800830F40;
+			remoteInfo = MNFileDownloader;
+		};
+		DDC7F55A20299CC800830F40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDC7F52E20299CC800830F40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDC7F53520299CC800830F40;
+			remoteInfo = MNFileDownloader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DDC7F53620299CC800830F40 /* MNFileDownloader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MNFileDownloader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDC7F53920299CC800830F40 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DDC7F53A20299CC800830F40 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DDC7F53C20299CC800830F40 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DDC7F53D20299CC800830F40 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DDC7F54020299CC800830F40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDC7F54220299CC800830F40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDC7F54520299CC800830F40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DDC7F54720299CC800830F40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDC7F54820299CC800830F40 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DDC7F54E20299CC800830F40 /* MNFileDownloaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MNFileDownloaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDC7F55220299CC800830F40 /* MNFileDownloaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MNFileDownloaderTests.m; sourceTree = "<group>"; };
+		DDC7F55420299CC800830F40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDC7F55920299CC800830F40 /* MNFileDownloaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MNFileDownloaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDC7F55D20299CC800830F40 /* MNFileDownloaderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MNFileDownloaderUITests.m; sourceTree = "<group>"; };
+		DDC7F55F20299CC800830F40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDC7F53320299CC800830F40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDC7F54B20299CC800830F40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDC7F55620299CC800830F40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDC7F52D20299CC800830F40 = {
+			isa = PBXGroup;
+			children = (
+				DDC7F53820299CC800830F40 /* MNFileDownloader */,
+				DDC7F55120299CC800830F40 /* MNFileDownloaderTests */,
+				DDC7F55C20299CC800830F40 /* MNFileDownloaderUITests */,
+				DDC7F53720299CC800830F40 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDC7F53720299CC800830F40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDC7F53620299CC800830F40 /* MNFileDownloader.app */,
+				DDC7F54E20299CC800830F40 /* MNFileDownloaderTests.xctest */,
+				DDC7F55920299CC800830F40 /* MNFileDownloaderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDC7F53820299CC800830F40 /* MNFileDownloader */ = {
+			isa = PBXGroup;
+			children = (
+				DDC7F53920299CC800830F40 /* AppDelegate.h */,
+				DDC7F53A20299CC800830F40 /* AppDelegate.m */,
+				DDC7F53C20299CC800830F40 /* ViewController.h */,
+				DDC7F53D20299CC800830F40 /* ViewController.m */,
+				DDC7F53F20299CC800830F40 /* Main.storyboard */,
+				DDC7F54220299CC800830F40 /* Assets.xcassets */,
+				DDC7F54420299CC800830F40 /* LaunchScreen.storyboard */,
+				DDC7F54720299CC800830F40 /* Info.plist */,
+				DDC7F54820299CC800830F40 /* main.m */,
+			);
+			path = MNFileDownloader;
+			sourceTree = "<group>";
+		};
+		DDC7F55120299CC800830F40 /* MNFileDownloaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDC7F55220299CC800830F40 /* MNFileDownloaderTests.m */,
+				DDC7F55420299CC800830F40 /* Info.plist */,
+			);
+			path = MNFileDownloaderTests;
+			sourceTree = "<group>";
+		};
+		DDC7F55C20299CC800830F40 /* MNFileDownloaderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DDC7F55D20299CC800830F40 /* MNFileDownloaderUITests.m */,
+				DDC7F55F20299CC800830F40 /* Info.plist */,
+			);
+			path = MNFileDownloaderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDC7F53520299CC800830F40 /* MNFileDownloader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDC7F56220299CC800830F40 /* Build configuration list for PBXNativeTarget "MNFileDownloader" */;
+			buildPhases = (
+				DDC7F53220299CC800830F40 /* Sources */,
+				DDC7F53320299CC800830F40 /* Frameworks */,
+				DDC7F53420299CC800830F40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MNFileDownloader;
+			productName = MNFileDownloader;
+			productReference = DDC7F53620299CC800830F40 /* MNFileDownloader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDC7F54D20299CC800830F40 /* MNFileDownloaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDC7F56520299CC800830F40 /* Build configuration list for PBXNativeTarget "MNFileDownloaderTests" */;
+			buildPhases = (
+				DDC7F54A20299CC800830F40 /* Sources */,
+				DDC7F54B20299CC800830F40 /* Frameworks */,
+				DDC7F54C20299CC800830F40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDC7F55020299CC800830F40 /* PBXTargetDependency */,
+			);
+			name = MNFileDownloaderTests;
+			productName = MNFileDownloaderTests;
+			productReference = DDC7F54E20299CC800830F40 /* MNFileDownloaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DDC7F55820299CC800830F40 /* MNFileDownloaderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDC7F56820299CC800830F40 /* Build configuration list for PBXNativeTarget "MNFileDownloaderUITests" */;
+			buildPhases = (
+				DDC7F55520299CC800830F40 /* Sources */,
+				DDC7F55620299CC800830F40 /* Frameworks */,
+				DDC7F55720299CC800830F40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDC7F55B20299CC800830F40 /* PBXTargetDependency */,
+			);
+			name = MNFileDownloaderUITests;
+			productName = MNFileDownloaderUITests;
+			productReference = DDC7F55920299CC800830F40 /* MNFileDownloaderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDC7F52E20299CC800830F40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Monalisa;
+				TargetAttributes = {
+					DDC7F53520299CC800830F40 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					DDC7F54D20299CC800830F40 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DDC7F53520299CC800830F40;
+					};
+					DDC7F55820299CC800830F40 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DDC7F53520299CC800830F40;
+					};
+				};
+			};
+			buildConfigurationList = DDC7F53120299CC800830F40 /* Build configuration list for PBXProject "MNFileDownloader" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDC7F52D20299CC800830F40;
+			productRefGroup = DDC7F53720299CC800830F40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDC7F53520299CC800830F40 /* MNFileDownloader */,
+				DDC7F54D20299CC800830F40 /* MNFileDownloaderTests */,
+				DDC7F55820299CC800830F40 /* MNFileDownloaderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDC7F53420299CC800830F40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDC7F54620299CC800830F40 /* LaunchScreen.storyboard in Resources */,
+				DDC7F54320299CC800830F40 /* Assets.xcassets in Resources */,
+				DDC7F54120299CC800830F40 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDC7F54C20299CC800830F40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDC7F55720299CC800830F40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDC7F53220299CC800830F40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDC7F53E20299CC800830F40 /* ViewController.m in Sources */,
+				DDC7F54920299CC800830F40 /* main.m in Sources */,
+				DDC7F53B20299CC800830F40 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDC7F54A20299CC800830F40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDC7F55320299CC800830F40 /* MNFileDownloaderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDC7F55520299CC800830F40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDC7F55E20299CC800830F40 /* MNFileDownloaderUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDC7F55020299CC800830F40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDC7F53520299CC800830F40 /* MNFileDownloader */;
+			targetProxy = DDC7F54F20299CC800830F40 /* PBXContainerItemProxy */;
+		};
+		DDC7F55B20299CC800830F40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDC7F53520299CC800830F40 /* MNFileDownloader */;
+			targetProxy = DDC7F55A20299CC800830F40 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DDC7F53F20299CC800830F40 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDC7F54020299CC800830F40 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DDC7F54420299CC800830F40 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDC7F54520299CC800830F40 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDC7F56020299CC800830F40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DDC7F56120299CC800830F40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDC7F56320299CC800830F40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A7W8JRSQBX;
+				INFOPLIST_FILE = MNFileDownloader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mona.test.MNFileDownloader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDC7F56420299CC800830F40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A7W8JRSQBX;
+				INFOPLIST_FILE = MNFileDownloader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mona.test.MNFileDownloader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DDC7F56620299CC800830F40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A7W8JRSQBX;
+				INFOPLIST_FILE = MNFileDownloaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mona.test.MNFileDownloaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MNFileDownloader.app/MNFileDownloader";
+			};
+			name = Debug;
+		};
+		DDC7F56720299CC800830F40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A7W8JRSQBX;
+				INFOPLIST_FILE = MNFileDownloaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mona.test.MNFileDownloaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MNFileDownloader.app/MNFileDownloader";
+			};
+			name = Release;
+		};
+		DDC7F56920299CC800830F40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A7W8JRSQBX;
+				INFOPLIST_FILE = MNFileDownloaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mona.test.MNFileDownloaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MNFileDownloader;
+			};
+			name = Debug;
+		};
+		DDC7F56A20299CC800830F40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A7W8JRSQBX;
+				INFOPLIST_FILE = MNFileDownloaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mona.test.MNFileDownloaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MNFileDownloader;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDC7F53120299CC800830F40 /* Build configuration list for PBXProject "MNFileDownloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDC7F56020299CC800830F40 /* Debug */,
+				DDC7F56120299CC800830F40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDC7F56220299CC800830F40 /* Build configuration list for PBXNativeTarget "MNFileDownloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDC7F56320299CC800830F40 /* Debug */,
+				DDC7F56420299CC800830F40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDC7F56520299CC800830F40 /* Build configuration list for PBXNativeTarget "MNFileDownloaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDC7F56620299CC800830F40 /* Debug */,
+				DDC7F56720299CC800830F40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDC7F56820299CC800830F40 /* Build configuration list for PBXNativeTarget "MNFileDownloaderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDC7F56920299CC800830F40 /* Debug */,
+				DDC7F56A20299CC800830F40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDC7F52E20299CC800830F40 /* Project object */;
+}
